@@ -69,11 +69,15 @@ Here we pass the parameter _$a_ using its name, and the parameter _$b_ using its
 
 For convenience, parameters names are also exposed as methods. The construction:
 
-```s('foo')->in('a', 7)->in(1, 5)->out();```
+```
+s('foo')->in('a', 7)->in(1, 5)->out();
+```
 
 is equivalent to:
 
-```s('foo')->a(7)->b(5)->out();```
+```
+s('foo')->a(7)->b(5)->out();
+```
 
 ### Usage with object/class methods.
 
