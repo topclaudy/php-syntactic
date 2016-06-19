@@ -83,7 +83,6 @@ The syntax for object/class methods is a bit different. You must refer to the me
 call **_in_** (or **_inRef_**) to pass parameters.
 
 ```php
-<?php
 
 class MyClass {
 	public function foo($a = 1, $b = 2, $c = 3, $d = 4){
