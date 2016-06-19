@@ -193,7 +193,7 @@ echo s('FooBar')->hello(); //Prints 'Hello World!"
 When using the _Syntacticable_ trait, all the instance methods of the class become _syntacticable_. This is useful when you don't want
 to use the helpers. The trait doesn't support static methods.
 
-Keep in mind that the _Syntacticable_ trait overrides the PHP magic method ___get_; you can't use the trait if a class
+Keep in mind that the _Syntacticable_ trait overrides the PHP magic method **__get**. You can't use the trait if a class
 overrides this method.
 
 Example using the _Syntacticable_ trait
