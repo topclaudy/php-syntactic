@@ -1,4 +1,4 @@
-# Syntactic sugar for named and indexed parameters call.
+# PHP Syntactic Sugar for named and indexed parameters call.
 
 PHP lacks support for named parameters call. **Syntactic** brings named and indexed parameter call support for user
 defined functions and methods of user defined classes (including class constructor).
