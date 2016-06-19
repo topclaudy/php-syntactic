@@ -211,7 +211,10 @@ class MyClass {
 		return $a * $b * $c * $d;
 	}
 }
+```
+Thanks to the _Syntacticable_ trait, the instance methods are exposed as properties, then you can call them in a _syntacticable_ way.
 
+```php
 $myObj = new MyClass();
 
 //Call the instance method foo
@@ -219,8 +222,6 @@ echo $myObj->foo->in('c', 8)->in('a', 1)->out(); //Outputs 64
 echo $myObj->foo->in(0, 1)->in(2, 8)->out(); //Outputs 64
 echo $myObj->foo->a(1)->c(8)->out(); //Outputs 64
 ```
-
-Thanks to the _Syntacticable_ trait, the instance methods are exposed as properties, then you can call them in a _syntacticable_ way.
 
 ## Limitations
 
