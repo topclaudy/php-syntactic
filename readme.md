@@ -52,7 +52,7 @@ echo s('foo')->in('a', 7)->in(1, 5)->out(); //Outputs 420
 echo s('foo')->c(9)->out(); //Outputs 72
 ```
 
-#### Explanation
+#### **Explanation**
 
 Let's explain the construction ```s('foo')->in('a', 7)->in(1, 5)->out();```
 
@@ -108,7 +108,7 @@ echo s('MyClass')->bar->b(5)->out(); //Outputs 60
 ```
 When calling static methods, it is recommended to use the fully qualified name of the class if you use namespaces.
 
-#### Using with class constructor
+#### **Using with class constructor**
 
 Consider the following class:
 
@@ -144,7 +144,7 @@ $obj = s('Bar')->newInstance()->b(6)->d(8)->out();
 echo $obj->getProduct(); //Outputs 144
 ```
 
-#### Calling methods directly on _syntacticable_ objects
+#### **Calling methods directly on _syntacticable_ objects**
 
 You may call a method directly on a syntacticable object by passing an array of named or indexed parameters.
 
