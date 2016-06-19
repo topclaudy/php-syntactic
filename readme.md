@@ -35,8 +35,6 @@ The methods **_with_** and **_withRef_** are aliases for _**in**_ and **_inRef_*
 
 Consider the following function which computes the product of its 4 arguments (a, b, c and d):
 ```php
-<?php
-
 function foo($a = 1, $b = 2, $c = 3, $d = 4){
     return $a * $b * $c * $d;
 }
@@ -69,13 +67,13 @@ Here we pass the parameter _$a_ using its name, and the parameter _$b_ using its
 
 For convenience, parameters names are also exposed as methods. The construction:
 
-```
+```php
 s('foo')->in('a', 7)->in(1, 5)->out();
 ```
 
 is equivalent to:
 
-```
+```php
 s('foo')->a(7)->b(5)->out();
 ```
 
@@ -115,7 +113,7 @@ When calling static methods, it is recommended to use the fully qualified name o
 
 Consider the following class:
 
-```
+```php
 class Bar
 {
     protected $a;
@@ -140,7 +138,7 @@ class Bar
 We can instantiate new object of this class using the _**newInstance**_ method and only specify the arguments we want for
 the constructor in an arbitrary order:
 
-```
+```php
 //Creates and instance of Bar
 $obj = s('Bar')->newInstance()->b(6)->d(8)->out();
 //Call a method on the instance
@@ -153,7 +151,7 @@ You may call a method directly on a syntacticable object by passing an array of 
 
 Consider the following class:
 
-```
+```php
 class FooBar
 {
     public function foo($a, $b = 2, $c = 3, $d = 4)
@@ -174,20 +172,20 @@ class FooBar
 
 We can call the method _foo_ on in instance:
 
-```
+```php
 $obj = new FooBar();
 echo s($obj)->foo(array('a'=>5, 'c'=>4)); //Outputs 160
 ```
 
 We can call the static method _bar_:
 
-```
+```php
 echo s('FooBar')->bar(array('a'=>5, 'c'=>4)); //Outputs 160
 ```
 
 Methods without arguments should be called without arguments:
 
-```
+```php
 echo s('FooBar')->hello(); //Prints 'Hello World!"
 ```
 
@@ -202,7 +200,6 @@ overrides this method.
 Example using the _Syntacticable_ trait
 
 ```php
-<?php
 
 class MyClass {
 	use Sankofa\Syntactic\Syntacticable;
@@ -239,8 +236,7 @@ $t = array(1, 6, 9, 3, 8, 2);
 s('sort')->inRef(0, $t)->out();
 ```
 
-```
-<?php
+```php
 $string = 'April 15, 2003';
 $pattern = '/(\w+) (\d+), (\d+)/i';
 $replacement = '${1}1,$3';
@@ -250,8 +246,7 @@ echo s('preg_replace')->in(0, $pattern)->in(1, $replacement)->in(2, $string)->ou
 
 while the example below won't work.
 
-```
-<?php
+```php
 $string = 'April 15, 2003';
 $pattern = '/(\w+) (\d+), (\d+)/i';
 $replacement = '${1}1,$3';
@@ -260,7 +255,7 @@ echo s('preg_replace')->in(0, $pattern)->in(1, $replacement)->in(2, $string)->in
 ```
 For this to work, we need to specify the value for the optional parameter _limit_ (at index 3):
 
-```
+```php
 echo s('preg_replace')->in(0, $pattern)->in(1, $replacement)->in(2, $string)->in(3, 1)->inRef(4, $count)->out();
 ```
 
@@ -307,13 +302,13 @@ Covenant](http:contributor-covenant.org), version 1.0.0, available at
 
 In order to run the test suite, install the development dependencies:
 
-```
+```bash
 $ composer install --dev
 ```
 
 Then, run the following command:
 
-```
+```bash
 $ vendor/bin/phpunit
 ```
 
