@@ -212,7 +212,7 @@ class MyClass {
 	}
 }
 ```
-Thanks to the _Syntacticable_ trait, the instance methods are exposed as properties, then you can call them in a _syntacticable_ way.
+Thanks to the _Syntacticable_ trait, the instance methods are exposed as properties on the class instances, then you can call them in a _syntacticable_ way.
 
 ```php
 $myObj = new MyClass();
