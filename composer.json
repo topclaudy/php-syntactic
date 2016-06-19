@@ -1,6 +1,6 @@
 {
   "name": "sankofa/syntactic",
-  "description": "Syntactic Sugar for PHP",
+  "description": "Syntactic Sugar for named and indexed parameters call",
   "license": "MIT",
   "keywords": [
     "syntactic sugar",
