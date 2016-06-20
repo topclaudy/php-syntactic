@@ -10,10 +10,11 @@ use ReflectionMethod;
  */
 class SyntacticMethod extends SyntacticFunctionAbstract
 {
+
     /**
      * SyntacticMethod constructor.
      *
-     * @param $class
+     * @param $classOrObject
      * @param $method
      *
      * @throws SyntacticException

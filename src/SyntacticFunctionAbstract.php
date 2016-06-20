@@ -60,9 +60,8 @@ abstract class SyntacticFunctionAbstract
         $this->reflectionParameters = $params;
     }
 
+
     /**
-     * @param $reflectionParams
-     *
      * @throws SyntacticException
      */
     private function buildCallParams()
