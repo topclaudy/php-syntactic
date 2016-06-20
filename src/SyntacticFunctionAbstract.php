@@ -2,9 +2,6 @@
 
 namespace Sankofa\Syntactic;
 
-use ReflectionFunction;
-use ReflectionMethod;
-
 /**
  * Class SyntacticFunctionAbstract
  * @package Sankofa\Syntactic

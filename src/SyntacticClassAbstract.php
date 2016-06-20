@@ -3,7 +3,6 @@
 namespace Sankofa\Syntactic;
 
 use ReflectionClass;
-use ReflectionMethod;
 
 /**
  * Class SyntacticClassAbstract
