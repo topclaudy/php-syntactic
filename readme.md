@@ -16,7 +16,7 @@ The recommended way to install **Syntactic** is through [Composer](http://getcom
 ```bash
 $ composer require awobaz/syntactic
 ```
-**_Syntactic_** requires PHP 5.4 or later.
+**_Syntactic_** requires PHP 5.6 or later.
 
 ## Usage
 
