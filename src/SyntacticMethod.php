@@ -1,12 +1,12 @@
 <?php
 
-namespace Sankofa\Syntactic;
+namespace Awobaz\Syntactic;
 
 use ReflectionMethod;
 
 /**
  * Class SyntacticMethod
- * @package Sankofa\Syntactic
+ * @package Awobaz\Syntactic
  */
 class SyntacticMethod extends SyntacticFunctionAbstract
 {

@@ -1,5 +1,5 @@
 {
-  "name": "sankofa/syntactic",
+  "name": "awobaz/syntactic",
   "description": "Syntactic Sugar for named and indexed parameters call",
   "license": "MIT",
   "keywords": [
@@ -20,7 +20,7 @@
   },
   "autoload": {
 	"psr-4": {
-	  "Sankofa\\Syntactic\\": "src"
+	  "Awobaz\\Syntactic\\": "src"
 	},
     "files": [
       "src/Resources/helpers.php",

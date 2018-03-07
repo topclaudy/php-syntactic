@@ -14,7 +14,7 @@ complicated checks. The parameters/arguments of your functions and methods remai
 The recommended way to install **Syntactic** is through [Composer](http://getcomposer.org/)
 
 ```bash
-$ composer require sankofa/syntactic
+$ composer require awobaz/syntactic
 ```
 **_Syntactic_** requires PHP 5.4 or later.
 
@@ -201,7 +201,7 @@ Example using the _Syntacticable_ trait
 ```php
 
 class MyClass {
-	use Sankofa\Syntactic\Syntacticable;
+	use Awobaz\Syntactic\Syntacticable;
 
 	public function foo($a = 1, $b = 2, $c = 3, $d = 4){
 		return $a * $b * $c * $d;

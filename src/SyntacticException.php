@@ -1,10 +1,10 @@
 <?php
 
-namespace Sankofa\Syntactic;
+namespace Awobaz\Syntactic;
 
 /**
  * Class SyntacticException
- * @package Sankofa\Syntactic
+ * @package Awobaz\Syntactic
  */
 class SyntacticException extends \Exception
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace Sankofa\Syntactic;
+namespace Awobaz\Syntactic;
 
 use ReflectionClass;
 
 /**
  * Class SyntacticClassAbstract
- * @package Sankofa\Syntactic
+ * @package Awobaz\Syntactic
  */
 abstract class SyntacticClassAbstract
 {

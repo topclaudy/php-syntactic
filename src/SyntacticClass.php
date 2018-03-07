@@ -1,10 +1,10 @@
 <?php
 
-namespace Sankofa\Syntactic;
+namespace Awobaz\Syntactic;
 
 /**
  * Class SyntacticClass
- * @package Sankofa\Syntactic
+ * @package Awobaz\Syntactic
  */
 class SyntacticClass extends SyntacticClassAbstract
 {

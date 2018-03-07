@@ -1,6 +1,6 @@
 <?php
 
-use Sankofa\Syntactic\Syntacticable;
+use Awobaz\Syntactic\Syntacticable;
 
 class SyntacticTest extends PHPUnit_Framework_TestCase {
 

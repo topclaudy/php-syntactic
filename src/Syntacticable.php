@@ -1,9 +1,9 @@
 <?php
-namespace Sankofa\Syntactic;
+namespace Awobaz\Syntactic;
 
 /**
  * Trait Syntacticable
- * @package Sankofa\Syntactic
+ * @package Awobaz\Syntactic
  */
 trait Syntacticable
 {
