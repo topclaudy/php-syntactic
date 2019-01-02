@@ -10,7 +10,7 @@
     "chainable"
   ],
   "authors": [
-	{"name": "Claudin J. Daniel", "email": "jclaudindaniel@gmail.com"}
+	{"name": "Claudin J. Daniel", "email": "cdaniel@awobaz.com"}
   ],
   "require": {
     "php": ">=5.4"
