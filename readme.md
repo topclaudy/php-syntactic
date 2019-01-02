@@ -314,7 +314,11 @@ $ vendor/bin/phpunit
 
 ## Authors
 
-* [Claudin J. Daniel](https://github.com/topclaudy)
+* [Claudin J. Daniel](https://github.com/topclaudy) - *Initial work*
+
+## Sponsored by
+
+* [Awobaz](https://awobaz.com) - Web/Mobile agency based in Montreal, Canada
 
 ## License
 
